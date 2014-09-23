@@ -1,9 +1,10 @@
+package logica;
 
 public class Piece {
 	private Position position;
-	private PieceType type;
-	private Color color;
-	public Piece(Position position, PieceType type, Color color) {
+	private PieceTypeEnum type;
+	private ColorEnum color;
+	public Piece(Position position, PieceTypeEnum type, ColorEnum color) {
 		super();
 		this.position = position;
 		this.type = type;
@@ -15,16 +16,16 @@ public class Piece {
 	public void setPosition(Position position) {
 		this.position = position;
 	}
-	public PieceType getType() {
+	public PieceTypeEnum getType() {
 		return type;
 	}
-	public void setType(PieceType type) {
+	public void setType(PieceTypeEnum type) {
 		this.type = type;
 	}
-	public Color getColor() {
+	public ColorEnum getColor() {
 		return color;
 	}
-	public void setColor(Color color) {
+	public void setColor(ColorEnum color) {
 		this.color = color;
 	}
 	

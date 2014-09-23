@@ -1,5 +1,6 @@
+package logica;
 
-public enum PieceType {
+public enum PieceTypeEnum {
 	leftTower,
 	leftKnight,
 	leftBishop,

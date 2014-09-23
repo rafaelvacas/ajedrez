@@ -1,3 +1,4 @@
+package logica;
 
 public class Position {
 	private int coordX;
@@ -8,7 +9,7 @@ public class Position {
 		return position;
 	}
 	
-	//Comprobar si la posición no es válida.
+	//Comprobar si la posición es válida o no.
 	public void setPosition(int[] newPosition){
 		coordX = newPosition[0];
 		coordY = newPosition[1];
